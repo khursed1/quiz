@@ -1,2 +1,2 @@
 # quiz
- simple quiz app
+ simple quiz
