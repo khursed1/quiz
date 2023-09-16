@@ -63,12 +63,40 @@ margin: auto;
     background-color: #237fb7;
 }
 #showScore{
+    display:flex;
+    min-height:50%;
+    width:50%;
     background-color: #dfe6e9;
     margin-top: 1rem;
     padding: 3rem 4rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0 , 0.4);
     border-radius: 4px;
+    justify-content:center;
+    align-items: center;
+   
+    flex-direction: column;
 }
 .scoreArea{
-    display: none;
+    visibility: hidden;
+}
+@media (max-width:850px){
+.inner-div{
+    width:100%;
+    height:100%;
+    border: none;
+    border-style: none;
+    border-radius: 0;
+    box-shadow: none;
+    
+}
+#showScore{margin-top: 0;
+    height:100%;
+    width:100%;
+    
+
+}
+.main-div{
+    background-color: white;
+}
+
 }
